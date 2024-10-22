@@ -1,0 +1,27 @@
+.new-div {
+    width: 400px;
+    height: 150px;
+    background-color: lightblue;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: move; /* Thay đổi con trỏ khi di chuột qua */
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.item {
+    background-color: lightcoral;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    border: 2px solid #333;
+}
+.input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
