@@ -55,7 +55,6 @@ document.querySelectorAll('.createDiv').forEach(button => {
             newDiv.onmouseup = function() {
                 document.removeEventListener('mousemove', onMouseMove);
                 newDiv.onmouseup = null; // Hủy bỏ sự kiện onmouseue
-                event.target
             };
 
             // Ngăn chặn hành vi mặc định của trình duyệt
